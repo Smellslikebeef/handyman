@@ -1,5 +1,5 @@
 {
-  "name": "pixie",
+  "name": "handyman",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,10 +8,13 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "register-service-worker": "^1.5.2",
     "vue": "^2.5.17",
+    "vue-material": "^1.0.0-beta-10.2",
     "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "vuex-persist": "^2.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.2.0",
